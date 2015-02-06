@@ -3654,7 +3654,7 @@ a:hover {
 .flexslider {
   margin-top: 10.25rem;
   margin-bottom: 0; }
-  .flexslider li a {
+  .flexslider ol li a {
     background-color: white; }
 
 /* --- Backstretch ---*/
