@@ -3563,7 +3563,7 @@ footer {
       margin-right: 15px; }
 
 a:hover {
-  color: #1bc7a5;
+  color: #3c7cbf;
   -webkit-transition: 1s;
   -moz-transition: 1s;
   -o-transition: 1s;
@@ -3653,22 +3653,9 @@ a:hover {
 /* --- Flexslider --- */
 .flexslider {
   margin-top: 10.25rem;
-  margin-bottom: 0;
-  max-width: 100%;
-  height: auto;
-  overflow: hidden; }
-  .flexslider .slides {
-    width: inherit;
-    max-width: inherit;
-    height: inherit; }
-    .flexslider .slides li {
-      width: 100%;
-      max-width: 100%;
-      height: inherit; }
-      .flexslider .slides li img {
-        width: inherit;
-        max-width: inherit;
-        height: inherit; }
+  margin-bottom: 0; }
+  .flexslider li a {
+    background-color: white; }
 
 /* --- Backstretch ---*/
 .backstretch-slider img {
@@ -3722,8 +3709,6 @@ a:hover {
 @media screen and (max-width: 768px) {
   .bubble:after {
     display: none; } }
-/* END */
-/* --- Lightbox --- */
 /* END */
 .gallery {
   margin: 5px 0; }

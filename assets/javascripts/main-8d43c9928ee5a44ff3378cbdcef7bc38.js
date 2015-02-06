@@ -56,7 +56,7 @@ $(document).ready(function() {
     });
 
 
-  $("#nanoGallery3").nanoGallery({
+  $("#gallery-main").nanoGallery({
       thumbnailWidth: 'auto',
       thumbnailHeight: 250,
       colorScheme: 'none',
@@ -69,22 +69,8 @@ $(document).ready(function() {
       thumbnailLazyLoad: true
   });
 
-  /* Example Nano Galleries */
 
-  $(".nanoGallery").nanoGallery({
-      thumbnailWidth: 'auto',
-      thumbnailHeight: 250,
-      userID: '111186676244625461692', kind:'picasa',
-      album: '5911347863561293937',
-      colorScheme: 'none',
-      thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
-      theme: 'light',
-      thumbnailGutterWidth : 0,
-      thumbnailGutterHeight : 0,
-      i18n: { thumbnailImageDescription: 'View Photo', thumbnailAlbumDescription: 'Open Album' },
-      thumbnailLabel: { display: true, position: 'overImageOnMiddle', align: 'center' },
-      thumbnailLazyLoad: true
-    });
+
 
 /* Flex Slider */
    var sliderOptions = {
