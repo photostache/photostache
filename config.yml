@@ -1,7 +1,11 @@
-base_path: "/photostache/"
+
 
 "main-theme" :
   "use" : "theme"
 
+widgets: 
+
 asset_pipeline:
-  enable: false
+  enable: true
+
+base_path: "/photostache/"
