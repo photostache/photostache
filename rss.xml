@@ -3,11 +3,11 @@
   <channel>
     <title/>
     <description/>
-    <link/>
+    <link>http://photostache.github.io/photostache/</link>
     <pubDate>2015-02-05</pubDate>
     <item>
       <title>About</title>
-      <link>/about</link>
+      <link>http://photostache.github.io/photostache//about</link>
       <description>&lt;div class="main-section"&gt;&#xD;
 &#xD;
     &lt;div class="container"&gt;&#xD;
@@ -65,7 +65,7 @@
     </item>
     <item>
       <title>Contact</title>
-      <link>/contact</link>
+      <link>http://photostache.github.io/photostache//contact</link>
       <description>         &lt;section id="contact-main-section"&gt;
             &lt;div class="email-main"&gt;
                 &lt;div class="container"&gt;
@@ -172,7 +172,7 @@
     </item>
     <item>
       <title>Faq</title>
-      <link>/faq</link>
+      <link>http://photostache.github.io/photostache//faq</link>
       <description>&lt;section id="faq-main-section"&gt;
             &lt;div class="container"&gt;
                 &lt;h1 class="section-header"&gt;Frequently Asked Questions&lt;/h1&gt;
@@ -248,7 +248,7 @@
     </item>
     <item>
       <title>Gallery</title>
-      <link>/gallery</link>
+      <link>http://photostache.github.io/photostache//gallery</link>
       <description> &lt;section id="gallery-main-section"&gt;
             &lt;div class="container"&gt;
                 &lt;h1 class="section-header"&gt;Gallery&lt;/h1&gt;
@@ -265,7 +265,7 @@
     </item>
     <item>
       <title>Gallery1</title>
-      <link>/gallery1</link>
+      <link>http://photostache.github.io/photostache//gallery1</link>
       <description>&lt;div class="main-section"&gt;
         
         &lt;section id="gallery-main-section"&gt;
@@ -280,7 +280,7 @@
     </item>
     <item>
       <title>Gallery2</title>
-      <link>/gallery2</link>
+      <link>http://photostache.github.io/photostache//gallery2</link>
       <description>&lt;div class="main-section"&gt;
         
         &lt;section id="gallery-main-section"&gt;
@@ -295,7 +295,7 @@
     </item>
     <item>
       <title>Gallery3</title>
-      <link>/gallery3</link>
+      <link>http://photostache.github.io/photostache//gallery3</link>
       <description>&lt;div class="main-section"&gt;
         
         &lt;section id="gallery-main-section"&gt;
@@ -312,7 +312,7 @@
     </item>
     <item>
       <title>Gallery4</title>
-      <link>/gallery4</link>
+      <link>http://photostache.github.io/photostache//gallery4</link>
       <description>&lt;!DOCTYPE html&gt;
 
 &lt;div class="main-section"&gt;
@@ -332,7 +332,7 @@
     </item>
     <item>
       <title>Index</title>
-      <link>/</link>
+      <link>http://photostache.github.io/photostache//</link>
       <description>    &lt;div class="intro-section"&gt;
         &lt;div class="container"&gt;
             &lt;h1 class="text-center"&gt;Welcome to Photostache!&lt;/h1&gt;
@@ -571,7 +571,7 @@
     </item>
     <item>
       <title>Packages</title>
-      <link>/packages</link>
+      <link>http://photostache.github.io/photostache//packages</link>
       <description>    &lt;div class="container"&gt;
 
         &lt;section class="plan-info"&gt;
