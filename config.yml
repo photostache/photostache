@@ -3,4 +3,4 @@
 "main-theme" :
   "use" : "theme"
 
-base_path: "/photostache"
+base_path: "/photostache/"
