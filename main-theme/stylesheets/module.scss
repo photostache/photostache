@@ -90,22 +90,10 @@
 .flexslider {
     margin-top: 10.25rem;
     margin-bottom: 0;
-    max-width: 100%;
-    height: auto;
-    overflow: hidden;
-    .slides {
-        width: inherit;
-        max-width: inherit;
-        height: inherit;
-        li {
-            width: 100%;
-            max-width: 100%;
-            height: inherit;
-            img {
-                width: inherit;
-                max-width: inherit;
-                height: inherit;
-            }
+    li {
+        
+        a {
+            background-color: white;
         }
     }
 }
@@ -183,9 +171,6 @@ top: 45px;
     }
 }
 
-/* END */
-
-/* --- Lightbox --- */
 /* END */
 
 .gallery {
