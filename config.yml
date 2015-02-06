@@ -1,6 +1,4 @@
-
+base_path: "http://photostache.github.io/photostache/"
 
 "main-theme" :
   "use" : "theme"
-
-base_path: "/photostache/"
