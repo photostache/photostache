@@ -3,4 +3,4 @@
 "main-theme" :
   "use" : "theme"
 
-base_path: "/photostachezzz/"
+production_url : "http://photostache.github.io/photostache/"
