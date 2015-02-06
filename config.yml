@@ -5,7 +5,4 @@
 
 widgets: 
 
-asset_pipeline:
-  enable: true
-
 base_path: "/photostache/"
