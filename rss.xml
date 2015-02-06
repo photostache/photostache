@@ -72,7 +72,7 @@
 
                     &lt;h1 class="text-center"&gt;Need a photo booth? Shoot us a message!&lt;/h1&gt;
                                &lt;form role="form"
-                                 id="form1" name="form1" class="wufoo topLabel page form wow bounceIn email-form" data-wow-duration="1s" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+                                 id="form1" name="form1" class="wufoo topLabel page form wow fadeIn email-form" data-wow-duration="1s" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
                                       action="https://photostachela.wufoo.com/forms/z8xvxfk02h7ckf/#public"&gt;
                                         &lt;div id="foli7" class="notranslate form-name-section"&gt;
 
