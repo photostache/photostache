@@ -123,7 +123,7 @@
     a {
         color: white;
         &:hover {
-            color: $secondaryColor;
+            color: $primaryColor;
             @include transition(2s);
         }
     }
