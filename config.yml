@@ -1,8 +1,4 @@
 "main-theme" :
   use : "theme"
 
-asset_pipeline:
-  enable: false
-
-
 base_path: "/photostache/"
