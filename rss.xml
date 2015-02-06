@@ -7,7 +7,7 @@
     <pubDate>2015-02-05</pubDate>
     <item>
       <title>About</title>
-      <link>/about</link>
+      <link>/photostache/about</link>
       <description>&lt;div class="main-section"&gt;&#xD;
 &#xD;
     &lt;div class="container"&gt;&#xD;
@@ -19,7 +19,7 @@
             &lt;/h1&gt;&#xD;
             &lt;div class="row"&gt;&#xD;
                 &lt;div class="col-xs-4"&gt;&#xD;
-                    &lt;img src="/assets/media/slide1.jpg" class="img-responsive" alt="Cupcake"&gt;&#xD;
+                    &lt;img src="/photostache/assets/media/slide1.jpg" class="img-responsive" alt="Cupcake"&gt;&#xD;
                 &lt;/div&gt;&#xD;
                 &lt;div class="col-xs-8"&gt;&#xD;
                     &lt;p&gt;&#xD;
@@ -41,14 +41,14 @@
             &lt;h1 class="wow fadeIn section-header" data-wow-duration="2s"&gt;About Our Team&lt;/h1&gt;&#xD;
             &lt;div class="row wow bounceIn " data-wow-duration="2s"&gt;&#xD;
                 &lt;div class="col-sm-6 bio"&gt;&#xD;
-                    &lt;img src="/assets/media/roy.jpg" class="img-circle img-responsive center-block" alt=""&gt;&#xD;
+                    &lt;img src="/photostache/assets/media/roy.jpg" class="img-circle img-responsive center-block" alt=""&gt;&#xD;
                     &lt;h2&gt;Roy Kim, Founder&lt;/h2&gt;&#xD;
                     &lt;p&gt;&#xD;
                         Aside from co-owning and operating a photo booth, Roy is a Registered Dietitian who works closely with Renal patients. He strives to improve their lives by helping them make healthy lifestyle choices. When he's not in his lab coat, Roy loves to be physically active. And by the way, he's a pretty good Fan Duel player. Go Lakers! Dodgers! AND KINGS! YEA BABYY!!!! Roy is full of life and is always enjoys having a good time. He stands by the quote, "A day without laughter, is a day wasted."&#xD;
                     &lt;/p&gt;&#xD;
                 &lt;/div&gt;&#xD;
                 &lt;div class="col-sm-6 bio"&gt;&#xD;
-                    &lt;img src="/assets/media/andrew.jpg" class="img-circle img-responsive center-block team-pic" alt=""&gt;&#xD;
+                    &lt;img src="/photostache/assets/media/andrew.jpg" class="img-circle img-responsive center-block team-pic" alt=""&gt;&#xD;
                     &lt;h2&gt;Andrew Lee, Founder&lt;/h2&gt;&#xD;
                     &lt;p&gt;&#xD;
                         Andrew is a Golf Professional. When he's not being the best Photobooth attendant, he is helping others perfect the game of golf. For fun, Andrew likes to cook, travel, go fishing, be a foodie, photography and shop online.&#xD;
@@ -65,7 +65,7 @@
     </item>
     <item>
       <title>Contact</title>
-      <link>/contact</link>
+      <link>/photostache/contact</link>
       <description>         &lt;section id="contact-main-section"&gt;
             &lt;div class="email-main"&gt;
                 &lt;div class="container"&gt;
@@ -172,7 +172,7 @@
     </item>
     <item>
       <title>Faq</title>
-      <link>/faq</link>
+      <link>/photostache/faq</link>
       <description>&lt;section id="faq-main-section"&gt;
             &lt;div class="container"&gt;
                 &lt;h1 class="section-header"&gt;Frequently Asked Questions&lt;/h1&gt;
@@ -248,15 +248,15 @@
     </item>
     <item>
       <title>Gallery</title>
-      <link>/gallery</link>
+      <link>/photostache/gallery</link>
       <description> &lt;section id="gallery-main-section"&gt;
             &lt;div class="container"&gt;
                 &lt;h1 class="section-header"&gt;Gallery&lt;/h1&gt;
 
                 &lt;div class="gallery-main"&gt;
                     &lt;div id="nanoGallery3"&gt;
-                       &lt;a href="/gallery1" data-ngdest="/gallery1" data-ngthumb="/assets/media/slide1.jpg" data-ngdesc="Description1"&gt;Photostache!&lt;/a&gt;
-                      &lt;a href="/gallery2" data-ngdest="/gallery2" data-ngthumb="/assets/media/slide2.jpg"&gt;Past Events!&lt;/a&gt;
+                       &lt;a href="/gallery1" data-ngdest="/gallery1" data-ngthumb="/photostache/assets/media/slide1.jpg" data-ngdesc="Description1"&gt;Photostache!&lt;/a&gt;
+                      &lt;a href="/gallery2" data-ngdest="/gallery2" data-ngthumb="/photostache/assets/media/slide2.jpg"&gt;Past Events!&lt;/a&gt;
             
                     &lt;/div&gt;
                 &lt;/div&gt;
@@ -265,7 +265,7 @@
     </item>
     <item>
       <title>Gallery1</title>
-      <link>/gallery1</link>
+      <link>/photostache/gallery1</link>
       <description>&lt;div class="main-section"&gt;
         
         &lt;section id="gallery-main-section"&gt;
@@ -280,7 +280,7 @@
     </item>
     <item>
       <title>Gallery2</title>
-      <link>/gallery2</link>
+      <link>/photostache/gallery2</link>
       <description>&lt;div class="main-section"&gt;
         
         &lt;section id="gallery-main-section"&gt;
@@ -295,7 +295,7 @@
     </item>
     <item>
       <title>Gallery3</title>
-      <link>/gallery3</link>
+      <link>/photostache/gallery3</link>
       <description>&lt;div class="main-section"&gt;
         
         &lt;section id="gallery-main-section"&gt;
@@ -312,7 +312,7 @@
     </item>
     <item>
       <title>Gallery4</title>
-      <link>/gallery4</link>
+      <link>/photostache/gallery4</link>
       <description>&lt;!DOCTYPE html&gt;
 
 &lt;div class="main-section"&gt;
@@ -332,23 +332,23 @@
     </item>
     <item>
       <title>Index</title>
-      <link>/</link>
+      <link>/photostache</link>
       <description>    &lt;div class="intro-section"&gt;
         &lt;div class="container"&gt;
             &lt;h1 class="text-center"&gt;Welcome to Photostache!&lt;/h1&gt;
             &lt;div class="flexslider"&gt;
                     &lt;ul class="slides"&gt;
                         &lt;li&gt;
-                          &lt;img src="/assets/media/slide1.jpg" /&gt;
+                          &lt;img src="/photostache/assets/media/slide1.jpg" /&gt;
                         &lt;/li&gt;
                         &lt;li&gt;
-                          &lt;img src="/assets/media/slide2.jpg" /&gt;
+                          &lt;img src="/photostache/assets/media/slide2.jpg" /&gt;
                         &lt;/li&gt;
                         &lt;li&gt;
-                          &lt;img src="/assets/media/slide3.jpg" /&gt;
+                          &lt;img src="/photostache/assets/media/slide3.jpg" /&gt;
                         &lt;/li&gt;
                          &lt;li&gt;
-                          &lt;img src="/assets/media/slide4.jpg" /&gt;
+                          &lt;img src="/photostache/assets/media/slide4.jpg" /&gt;
                         &lt;/li&gt;
                     &lt;/ul&gt;
             &lt;/div&gt;
@@ -364,17 +364,17 @@
 
                     &lt;div class="row"&gt;
                         &lt;div class="col-sm-4 intro-div intro-div1"&gt;
-                            &lt;img class="img-responsive img-circle" src="/assets/media/stachecam.png" alt="flat camera icon"&gt;
+                            &lt;img class="img-responsive img-circle" src="/photostache/assets/media/stachecam.png" alt="flat camera icon"&gt;
                             &lt;h2&gt;High Quality Camera&lt;/h2&gt;
                             &lt;p&gt;We bring HIGH Quality imagery with a professional DSLR camera, professional studio lighting, and of course fun attendants that will help assist you and your guests every step of the way. &lt;/p&gt;
                         &lt;/div&gt;
                         &lt;div class="col-sm-4 intro-div intro-div2"&gt;
-                            &lt;img class="img-responsive" src="/assets/media/stache1.png" alt="flat mustache icon"&gt;
+                            &lt;img class="img-responsive" src="/photostache/assets/media/stache1.png" alt="flat mustache icon"&gt;
                             &lt;h2&gt;Unlimited Photographs&lt;/h2&gt;
                                 &lt;p&gt;Yep, you read that right! Your guests will be able to take unlimited photos with the Photostache Booth there! Choose from the traditional double strip print or the modern 4x6 layout.  &lt;/p&gt;
                         &lt;/div&gt;
                         &lt;div class="col-sm-4 intro-div intro-div3"&gt;
-                            &lt;img class="img-responsive" src="/assets/media/glasses1.png" alt="flat kanye glasses icon"&gt;
+                            &lt;img class="img-responsive" src="/photostache/assets/media/glasses1.png" alt="flat kanye glasses icon"&gt;
                              &lt;h2&gt;Giant Box Of Props!&lt;/h2&gt;
                             &lt;p&gt;We bring a treasure chest of fun props to all of our events at no addtional cost! Our props will guarantee that your guests will be able to capture hilarious moments with each picture. Our Signature mustaches are of course included!&lt;/p&gt;
                         &lt;/div&gt;
@@ -390,7 +390,7 @@
                     &lt;h1 class="wow fadeInRight section-header" data-wow-duration="1s"&gt;About&lt;/h1&gt;
                     &lt;div class="row"&gt;
                         &lt;div class="col-sm-6"&gt;
-                            &lt;img src="/assets/media/slide5.jpg" class="img-thumbnail img-responsive gaykim wow bounceInUp center-block" data-wow-duration="3s" alt="Kim Pose"&gt;
+                            &lt;img src="/photostache/assets/media/slide5.jpg" class="img-thumbnail img-responsive gaykim wow bounceInUp center-block" data-wow-duration="3s" alt="Kim Pose"&gt;
                         &lt;/div&gt;
                         &lt;div class="col-sm-6 about-section"&gt;
                             &lt;p&gt;Photostache Photobooth was created to capture fun, timeless moments at any event. Our mission is to make sure our guests have the time of their lives and to capture that instant moment on picture. We are here to provide a fun and engaging environment for you and your guests. 
@@ -416,7 +416,7 @@
                         &lt;/div&gt;
 
                         &lt;div class="col-sm-6 testimonial-main"&gt;
-                             &lt;img class="img-responsive" src="/assets/media/logo.png" alt="Photostache Logo Man!"&gt;
+                             &lt;img class="img-responsive" src="/photostache/assets/media/logo.png" alt="Photostache Logo Man!"&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
             &lt;/section&gt;
@@ -425,25 +425,25 @@
                 &lt;h1 class="wow fadeInLeft section-header" data-wow-duration="1s"&gt;Photo Gallery&lt;/h1&gt;
                 &lt;div class="wow fadeIn data-wow-duration="1s""&gt;
                     &lt;div class="row gallery"&gt;
-                        &lt;a href="/assets/media/slide1.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
-                            &lt;img class="img-responsive" src="/assets/media/slide1.jpg" alt="Photo booth and props!"&gt;
+                        &lt;a href="/photostache/assets/media/slide1.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
+                            &lt;img class="img-responsive" src="/photostache/assets/media/slide1.jpg" alt="Photo booth and props!"&gt;
                         &lt;/a&gt;
-                        &lt;a href="/assets/media/slide2.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
-                            &lt;img class="img-responsive" src="/assets/media/slide2.jpg" alt="Photo booth and props!"&gt;
+                        &lt;a href="/photostache/assets/media/slide2.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
+                            &lt;img class="img-responsive" src="/photostache/assets/media/slide2.jpg" alt="Photo booth and props!"&gt;
                         &lt;/a&gt;
-                        &lt;a href="/assets/media/slide3.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
-                            &lt;img class="img-responsive" src="/assets/media/slide3.jpg" alt="Photo booth and props!"&gt;
+                        &lt;a href="/photostache/assets/media/slide3.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
+                            &lt;img class="img-responsive" src="/photostache/assets/media/slide3.jpg" alt="Photo booth and props!"&gt;
                         &lt;/a&gt;
                     &lt;/div&gt;
                      &lt;div class="row gallery"&gt;
-                        &lt;a href="/assets/media/slide5.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
-                            &lt;img class="img-responsive" src="/assets/media/slide5.jpg" alt="Photo booth and props!"&gt;
+                        &lt;a href="/photostache/assets/media/slide5.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
+                            &lt;img class="img-responsive" src="/photostache/assets/media/slide5.jpg" alt="Photo booth and props!"&gt;
                         &lt;/a&gt;
-                        &lt;a href="/assets/media/slide6.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
-                            &lt;img class="img-responsive" src="/assets/media/slide6.jpg" alt="Photo booth and props!"&gt;
+                        &lt;a href="/photostache/assets/media/slide6.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
+                            &lt;img class="img-responsive" src="/photostache/assets/media/slide6.jpg" alt="Photo booth and props!"&gt;
                         &lt;/a&gt;
-                        &lt;a href="/assets/media/slide7.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
-                            &lt;img class="img-responsive" src="/assets/media/slide7.jpg" alt="Photo booth and props!"&gt;
+                        &lt;a href="/photostache/assets/media/slide7.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
+                            &lt;img class="img-responsive" src="/photostache/assets/media/slide7.jpg" alt="Photo booth and props!"&gt;
                         &lt;/a&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
@@ -571,7 +571,7 @@
     </item>
     <item>
       <title>Packages</title>
-      <link>/packages</link>
+      <link>/photostache/packages</link>
       <description>    &lt;div class="container"&gt;
 
         &lt;section class="plan-info"&gt;
@@ -645,7 +645,7 @@
             &lt;h1 class="section-header"&gt;Additional Add-Ons and Customization&lt;/h1&gt;
             &lt;div class="row"&gt;
                 &lt;div class="col-sm-6"&gt;
-                     &lt;img class="img-responsive" src="/assets/media/slide6.jpg" alt="Photobooth and props!"&gt;
+                     &lt;img class="img-responsive" src="/photostache/assets/media/slide6.jpg" alt="Photobooth and props!"&gt;
                 &lt;/div&gt;
                 &lt;div class="col-sm-6 addons"&gt;
                     &lt;h2 class="text-center"&gt;Available options:&lt;/h2&gt;
