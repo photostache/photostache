@@ -1,0 +1,5 @@
+
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$primaryFont\".\A         on line 8 of ./stylesheets/main.scss\A \A 3: }\A 4: \A 5: /* ---INTRO SECTION ---*/\A 6: \A 7: .intro-section {\A 8:     font-family: $primaryFont;\A 9:     color: white;\A 10:     background-color: $primaryColor;\A 11:     padding-bottom: 100px;\A 12:     h1 {\A 13:         font-family: $primaryFont;"; }

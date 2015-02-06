@@ -1,51 +1,10 @@
 $(document).ready(function() {
-  /* Backstretch Init */
 
-  var bs = $(".backstretch-slider");
   var mn = $(".main-nav");
   var mns = "main-nav-scrolled";
   var hdr = $('header').height();
   var fs = $('.flexslider');
-/*
-  ts.backstretch([
-    "assets/media/slide1.jpg",
-    "assets/media/slide2.jpg",
-    "assets/media/slide3.jpg",
-    "assets/media/slide4.jpg"
-  ], {duration: 4000, fade: "normal", centeredX: false, centeredY: false});
 
-  bs.backstretch([
-    "assets/media/slide1.jpg",
-    "assets/media/slide2.jpg",
-    "assets/media/slide3.jpg",
-    "assets/media/slide4.jpg"
-  ], {duration: 4000, fade: "normal"});
-/*
-  /* Set height of div is Window viewport if it exists*/
-/*
-  if(bs.length){
-    bs.height($(window).height() - (bs.offset().top));
-  }
-*/
-/*
-  if(fs.length){
-    fs.height($(window).height() - (fs.offset().top));
-  }
-
-
-  function resizeWindow(e){
-    var slideshowHeight = $(window).height() - $('#header').outerHeight();
-    if( $('body').length > 0 ) {
-      $('#backstretch-slider, .backstretch-slider').height(slideshowHeight);
-    }
-    if( $('body').length > 0 ) {
-      fs.height(slideshowHeight);
-    }
-  }
-
-  $(window).bind('resize', resizeWindow);
-  resizeWindow();
-*/
   /* WOW.js Init */
 
   new WOW().init();
@@ -127,6 +86,7 @@ $(document).ready(function() {
       thumbnailLazyLoad: true
     });
 
+/* Flex Slider */
    var sliderOptions = {
     animation: "fade",
     easing: "swing",
@@ -137,5 +97,4 @@ $(document).ready(function() {
 
    fs.flexslider(sliderOptions);
 
-   /* responsive nav */
 });
