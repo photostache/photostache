@@ -1,4 +1,7 @@
-base_path: "http://photostache.github.io/photostache/"
+base_path: "/photostache/"
 
 "main-theme" :
   "use" : "theme"
+
+asset_pipeline:
+  enable: true
