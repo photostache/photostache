@@ -66,10 +66,18 @@
 */
     .section2 {
         .about-section {
-            p {
+            color: white;
+            padding: 20px;
+            padding-bottom: 36px;
+            background-color: $primaryColor;
+            h2 {
+                font-family: $primaryFont;
+                margin: 10px 0;
+            }
+            li {
+                margin: 5px 20px;
+                list-style-type: disc;
                 font-size: 17px;
-                background-color: $fourthColor;
-                padding: 25px;
             }
         }
     }
