@@ -3761,7 +3761,8 @@ a:hover {
   height: 100%;
   background-color: #d87782;
   margin: 0 auto;
-  color: white; }
+  color: white;
+  padding: 8px; }
   .plan-addons .addons ul {
     padding: 30px; }
     .plan-addons .addons ul li {
