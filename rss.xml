@@ -4,7 +4,7 @@
     <title/>
     <description/>
     <link/>
-    <pubDate>2015-02-06</pubDate>
+    <pubDate>2015-02-09</pubDate>
     <item>
       <title>About</title>
       <link>/photostache/about</link>
@@ -399,28 +399,7 @@
             &lt;section id="section4"&gt;
                 &lt;h1 class="wow fadeInLeft section-header" data-wow-duration="1s"&gt;Photo Gallery&lt;/h1&gt;
                 &lt;div class="wow fadeIn data-wow-duration="1s""&gt;
-                    &lt;div class="row gallery"&gt;
-                        &lt;a href="/photostache/assets/media/slide1.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
-                            &lt;img class="img-responsive" src="/photostache/assets/media/slide1.jpg" alt="Photo booth and props!"&gt;
-                        &lt;/a&gt;
-                        &lt;a href="/photostache/assets/media/slide2.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
-                            &lt;img class="img-responsive" src="/photostache/assets/media/slide2.jpg" alt="Photo booth and props!"&gt;
-                        &lt;/a&gt;
-                        &lt;a href="/photostache/assets/media/slide3.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
-                            &lt;img class="img-responsive" src="/photostache/assets/media/slide3.jpg" alt="Photo booth and props!"&gt;
-                        &lt;/a&gt;
-                    &lt;/div&gt;
-                     &lt;div class="row gallery"&gt;
-                        &lt;a href="/photostache/assets/media/slide5.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
-                            &lt;img class="img-responsive" src="/photostache/assets/media/slide5.jpg" alt="Photo booth and props!"&gt;
-                        &lt;/a&gt;
-                        &lt;a href="/photostache/assets/media/slide6.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
-                            &lt;img class="img-responsive" src="/photostache/assets/media/slide6.jpg" alt="Photo booth and props!"&gt;
-                        &lt;/a&gt;
-                        &lt;a href="/photostache/assets/media/slide7.jpg" class="col-xs-4" data-lightbox="Photo booth and props!" data-title="Photo booth and props!"&gt;
-                            &lt;img class="img-responsive" src="/photostache/assets/media/slide7.jpg" alt="Photo booth and props!"&gt;
-                        &lt;/a&gt;
-                    &lt;/div&gt;
+                    &lt;div id="frontpage-gallery"&gt;&lt;/div&gt;
                 &lt;/div&gt;
             &lt;/section&gt;
 

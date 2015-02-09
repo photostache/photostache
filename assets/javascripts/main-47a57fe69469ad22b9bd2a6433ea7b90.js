@@ -55,6 +55,22 @@ $(document).ready(function() {
       thumbnailLazyLoad: true
     });
 
+      $("#frontpage-gallery").nanoGallery({
+      thumbnailWidth: 'auto',
+      thumbnailHeight: 250,
+      userID: '103904153101772789154',
+      kind:'picasa',
+      album: '6113963919844552913&authkey=CL_A9db-6Zv8uwE',
+      colorScheme: 'none',
+      thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
+      theme: 'light',
+      thumbnailGutterWidth : 0,
+      thumbnailGutterHeight : 0,
+      i18n: { thumbnailImageDescription: 'View Photo', thumbnailAlbumDescription: 'Open Album' },
+      thumbnailLabel: { display: true, position: 'overImageOnMiddle', align: 'center' },
+      thumbnailLazyLoad: true
+    });
+
 
   $("#gallery-main").nanoGallery({
       thumbnailWidth: 'auto',
