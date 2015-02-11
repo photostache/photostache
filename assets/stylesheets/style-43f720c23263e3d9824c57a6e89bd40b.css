@@ -40,7 +40,7 @@ footer {
       margin-right: 15px; }
 
 a:hover {
-  color: #1bc7a5;
+  color: #3c7cbf;
   -webkit-transition: 1s;
   -moz-transition: 1s;
   -o-transition: 1s;
@@ -76,7 +76,7 @@ a:hover {
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
   position: relative;
   text-align: center;
-  margin-bottom: -61px; }
+  margin-bottom: -80px; }
   .main-nav ul li {
     border-right: 1px solid #ddd; }
     .main-nav ul li:last-child {
@@ -95,7 +95,7 @@ a:hover {
     margin: 20px 10px;
     border-right: 1px solid #555555; }
     .main-nav .main-nav-link:hover {
-      color: #d87782;
+      color: #1bc7a5;
       -webkit-transition: 0.5s;
       -moz-transition: 0.5s;
       -o-transition: 0.5s;
@@ -111,38 +111,28 @@ a:hover {
   top: 0; }
 
 @media screen and (max-width: 768px) {
+  .navbar-toggle {
+    margin-top: 20px; }
+
   .brand {
     font-size: 28px;
     font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
     display: block;
-    padding: 10px; }
+    padding: 20px; }
 
   .main-nav-link {
     padding: 30px !important;
     margin: 0 !important;
     display: block;
     width: 100%;
-    border: 1px solid #d87782 !important; } }
+    border: 1px solid #1bc7a5 !important; } }
 /* --- Navi Open / Close --- */
 /* --- Flexslider --- */
 .flexslider {
   margin-top: 10.25rem;
-  margin-bottom: 0;
-  max-width: 100%;
-  height: auto;
-  overflow: hidden; }
-  .flexslider .slides {
-    width: inherit;
-    max-width: inherit;
-    height: inherit; }
-    .flexslider .slides li {
-      width: 100%;
-      max-width: 100%;
-      height: inherit; }
-      .flexslider .slides li img {
-        width: inherit;
-        max-width: inherit;
-        height: inherit; }
+  margin-bottom: 0; }
+  .flexslider ol li a {
+    background-color: white; }
 
 /* --- Backstretch ---*/
 .backstretch-slider img {
@@ -165,7 +155,7 @@ a:hover {
   letter-spacing: 3px;
   padding: 40px 0;
   padding: 30px;
-  border: 2px dotted #d87782; }
+  border: 2px dotted #1bc7a5; }
 
 /* Speech Bubble */
 .bubble {
@@ -197,8 +187,6 @@ a:hover {
   .bubble:after {
     display: none; } }
 /* END */
-/* --- Lightbox --- */
-/* END */
 .gallery {
   margin: 5px 0; }
 
@@ -213,7 +201,7 @@ a:hover {
   .contact-form input, .contact-form textarea {
     font-weight: 500;
     border: none;
-    border-bottom: 1px solid #d87782;
+    border-bottom: 1px solid #1bc7a5;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
@@ -239,7 +227,7 @@ a:hover {
     -moz-border-radius: 3px;
     border-radius: 3px; }
     .contact-form .submit-btn:hover {
-      background-color: #d87782;
+      background-color: #1bc7a5;
       -webkit-transition: 0.5s;
       -moz-transition: 0.5s;
       -o-transition: 0.5s;
@@ -274,7 +262,7 @@ a:hover {
 .intro-section {
   font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
   color: white;
-  background-color: #d87782;
+  background-color: #1bc7a5;
   padding-bottom: 100px; }
   .intro-section h1 {
     font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
@@ -316,10 +304,18 @@ a:hover {
               color: white;
           }
   */ }
-  #section2 .section2 .about-section p {
-    font-size: 17px;
-    background-color: #d6e9de;
-    padding: 25px; }
+  #section2 .section2 .about-section {
+    color: white;
+    padding: 20px;
+    padding-bottom: 36px;
+    background-color: #1bc7a5; }
+    #section2 .section2 .about-section h2 {
+      font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
+      margin: 10px 0; }
+    #section2 .section2 .about-section li {
+      margin: 5px 20px;
+      list-style-type: disc;
+      font-size: 17px; }
 
 /*--- SECTION 3 AKA TESTIMONIALS ---*/
 #section3 p {
@@ -353,7 +349,7 @@ a:hover {
   #section5 a {
     color: white; }
     #section5 a:hover {
-      color: #3c7cbf;
+      color: #1bc7a5;
       -webkit-transition: 2s;
       -moz-transition: 2s;
       -o-transition: 2s;
@@ -377,7 +373,7 @@ a:hover {
   .about-team h2 {
     text-align: center; }
   .about-team p {
-    background-color: #d87782;
+    background-color: #1bc7a5;
     color: white;
     font-family: Helvetica;
     font-size: 16px;
@@ -410,7 +406,7 @@ a:hover {
       font-weight: 700;
       line-spacing: 4px;
       color: white;
-      background-color: #d87782;
+      background-color: #1bc7a5;
       text-align: center;
       padding: 20px 0 25px 0; }
       .plan-info .plan .plan-price span {
@@ -446,7 +442,7 @@ a:hover {
       padding-top: 10px;
       text-decoration: none; }
       .plan-info .plan .plan-btn:hover {
-        background-color: #d87782;
+        background-color: #1bc7a5;
         -webkit-transition: 1s;
         -moz-transition: 1s;
         -o-transition: 1s;
@@ -454,9 +450,10 @@ a:hover {
 
 .plan-addons .addons {
   height: 100%;
-  background-color: #d87782;
+  background-color: #1bc7a5;
   margin: 0 auto;
-  color: white; }
+  color: white;
+  padding: 8px; }
   .plan-addons .addons ul {
     padding: 30px; }
     .plan-addons .addons ul li {
@@ -475,14 +472,14 @@ a:hover {
 
 #faq-main-section h1 {
   padding: 25px;
-  border: 1px dotted #d87782; }
+  border: 1px dotted #1bc7a5; }
 #faq-main-section .faq-section h1, #faq-main-section .faq-section h2, #faq-main-section .faq-section h3 {
   text-align: center; }
 #faq-main-section .faq-section span, #faq-main-section .faq-section .fa {
   font-size: 20px;
   font-weight: 500; }
 #faq-main-section .faq-section span {
-  color: #d87782; }
+  color: #1bc7a5; }
 #faq-main-section .faq-section p {
   background-color: #d6e9de;
   padding: 25px;
@@ -498,9 +495,8 @@ a:hover {
 
 #contact-main-section {
   margin: 80px 0 0 0;
-  background-color: #d87782;
+  background-color: #1bc7a5;
   display: block;
-  min-height: 100%;
   margin-bottom: 0 !important; }
   #contact-main-section h1 {
     font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
@@ -533,8 +529,8 @@ a:hover {
     -moz-border-radius: 3px;
     border-radius: 3px; }
     #contact-main-section .submit-btn:hover {
-      background-color: #d87782;
-      border: 1px solid #d87782;
+      background-color: #1bc7a5;
+      border: 1px solid #1bc7a5;
       -webkit-transition: 0.5s;
       -moz-transition: 0.5s;
       -o-transition: 0.5s;
