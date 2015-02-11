@@ -18,6 +18,16 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+  .intro-section {
+    h1 {
+        font-size: 36px;
+    }
+  }
+}
+
+
+
 /*--- SECTION 1 ---*/
 
 
@@ -50,20 +60,10 @@
     }
 }
 
+
 /*--- SECTION 2 AKA ABOUT ---*/
 
 #section2 {
-/*
-        background: url(/assets/media/slide5.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        min-height: 100%;
-        h1 {
-            color: white;
-        }
-*/
     .section2 {
         .about-section {
             color: white;

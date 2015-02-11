@@ -270,6 +270,9 @@ a:hover {
     margin-top: 125px;
     margin-bottom: -50px; }
 
+@media screen and (max-width: 768px) {
+  .intro-section h1 {
+    font-size: 36px; } }
 /*--- SECTION 1 ---*/
 #section1 .section-header {
   margin-top: 35px; }
@@ -291,30 +294,18 @@ a:hover {
   padding: 2.1875rem; }
 
 /*--- SECTION 2 AKA ABOUT ---*/
-#section2 {
-  /*
-          background: url(/assets/media/slide5.jpg) no-repeat center center fixed;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-          min-height: 100%;
-          h1 {
-              color: white;
-          }
-  */ }
-  #section2 .section2 .about-section {
-    color: white;
-    padding: 20px;
-    padding-bottom: 36px;
-    background-color: #1bc7a5; }
-    #section2 .section2 .about-section h2 {
-      font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
-      margin: 10px 0; }
-    #section2 .section2 .about-section li {
-      margin: 5px 20px;
-      list-style-type: disc;
-      font-size: 17px; }
+#section2 .section2 .about-section {
+  color: white;
+  padding: 20px;
+  padding-bottom: 36px;
+  background-color: #1bc7a5; }
+  #section2 .section2 .about-section h2 {
+    font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
+    margin: 10px 0; }
+  #section2 .section2 .about-section li {
+    margin: 5px 20px;
+    list-style-type: disc;
+    font-size: 17px; }
 
 /*--- SECTION 3 AKA TESTIMONIALS ---*/
 #section3 p {
