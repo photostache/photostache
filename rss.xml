@@ -4,7 +4,7 @@
     <title/>
     <description/>
     <link/>
-    <pubDate>2015-02-12</pubDate>
+    <pubDate>2015-02-17</pubDate>
     <item>
       <title>About</title>
       <link>/photostache/about</link>
@@ -226,7 +226,7 @@
                 &lt;div class="gallery-main"&gt;
                     &lt;div id="gallery-main"&gt;
                        &lt;a href="/photostache/gallery1" data-ngdest="/photostache/gallery1" data-ngthumb="/photostache/assets/media/slide1.jpg" data-ngdesc="Description1"&gt;Photostache!&lt;/a&gt;
-                      &lt;a href="/photostache/gallery2" data-ngdest="/photostache/gallery2" data-ngthumb="/photostache/assets/media/slide2.jpg"&gt;Past Events!!!&lt;/a&gt;
+                      &lt;a href="/photostache/gallery2" data-ngdest="/photostache/gallery2" data-ngthumb="/photostache/assets/media/kelly.jpg"&gt;Past Events!!!&lt;/a&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
@@ -535,7 +535,7 @@
                     &lt;h3 class="plan-title"&gt;Package A&lt;/h3&gt;
                     &lt;div class="plan-price"&gt;
                         &lt;div class="plan-price-inner"&gt;
-                            &lt;p class="primary-price"&gt;&lt;span&gt;$&lt;/span&gt;499&lt;/p&gt;
+                            &lt;p class="primary-price"&gt;&lt;span&gt;$&lt;/span&gt;399&lt;/p&gt;
                             &lt;p class="secondary-price"&gt;2 HRs of service&lt;/p&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
@@ -555,7 +555,7 @@
                     &lt;h3 class="plan-title"&gt;Package B&lt;/h3&gt;
                     &lt;div class="plan-price"&gt;
                         &lt;div class="plan-price-inner"&gt;
-                            &lt;p class="primary-price"&gt;&lt;span&gt;$&lt;/span&gt;599&lt;/p&gt;
+                            &lt;p class="primary-price"&gt;&lt;span&gt;$&lt;/span&gt;499&lt;/p&gt;
                             &lt;p class="secondary-price"&gt;3 HRS of service&lt;/p&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
@@ -574,7 +574,7 @@
                     &lt;h3 class="plan-title"&gt;Package C&lt;/h3&gt;
                     &lt;div class="plan-price"&gt;
                         &lt;div class="plan-price-inner"&gt;
-                            &lt;p class="primary-price"&gt;&lt;span&gt;$&lt;/span&gt;699&lt;/p&gt;
+                            &lt;p class="primary-price"&gt;&lt;span&gt;$&lt;/span&gt;599&lt;/p&gt;
                             &lt;p class="secondary-price"&gt;4 HRS of service&lt;/p&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
