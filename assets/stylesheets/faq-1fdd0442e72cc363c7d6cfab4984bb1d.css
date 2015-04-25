@@ -1,48 +1,24 @@
 /*
-Syntax error: Undefined variable: "$primaryColor".
-        on line 4 of ./stylesheets/faq.scss
+Syntax error: Undefined variable: "$secondaryColor".
+        on line 6 of ./main-theme/stylesheets/faq.scss
 
-1: #faq-main-section {
-2:     h1 {
-3:         padding: 25px;
-4:         border: 1px dotted $primaryColor;
-5:     }
-6:     .faq-section {
-7:         h1, h2, h3 {
-8:         text-align: center;
-9:         }
+1: 
+2: 
+3: /*** colors ***\/
+4: 
+5: $color-1: #EBEBF2; // blue dark
+6: $color-2: $secondaryColor; // green
+7: $color-3: #f3f3f5; // grey light
+8: $color-4: #6c7d8e; // blue light
+9: $color-5: #ffffff; // white
+10: 
+11: /*** colors end ***\/
 
 Backtrace:
-./stylesheets/faq.scss:4
+./main-theme/stylesheets/faq.scss:6
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/variable.rb:49:in `_perform'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/node.rb:50:in `perform'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/list_literal.rb:62:in `block in _perform'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/list_literal.rb:62:in `map'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/list_literal.rb:62:in `_perform'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/node.rb:50:in `perform'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:366:in `visit_prop'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/stack.rb:121:in `with_frame'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/stack.rb:79:in `with_base'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `visit'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `block (2 levels) in visit_rule'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `map'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `block in visit_rule'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:387:in `visit_rule'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/stack.rb:121:in `with_frame'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/stack.rb:79:in `with_base'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `visit'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `block (2 levels) in visit_rule'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `map'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `block in visit_rule'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:387:in `visit_rule'
+/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:438:in `visit_variable'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
@@ -80,4 +56,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$primaryColor\".\A         on line 4 of ./stylesheets/faq.scss\A \A 1: #faq-main-section {\A 2:     h1 {\A 3:         padding: 25px;\A 4:         border: 1px dotted $primaryColor;\A 5:     }\A 6:     .faq-section {\A 7:         h1, h2, h3 {\A 8:         text-align: center;\A 9:         }"; }
+  content: "Syntax error: Undefined variable: \"$secondaryColor\".\A         on line 6 of ./main-theme/stylesheets/faq.scss\A \A 1: \A 2: \A 3: /*** colors ***/\A 4: \A 5: $color-1: #EBEBF2; // blue dark\A 6: $color-2: $secondaryColor; // green\A 7: $color-3: #f3f3f5; // grey light\A 8: $color-4: #6c7d8e; // blue light\A 9: $color-5: #ffffff; // white\A 10: \A 11: /*** colors end ***/"; }

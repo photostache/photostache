@@ -4,7 +4,7 @@
     <title/>
     <description/>
     <link/>
-    <pubDate>2015-02-17</pubDate>
+    <pubDate>2015-04-25</pubDate>
     <item>
       <title>About</title>
       <link>/photostache/about</link>
@@ -146,73 +146,127 @@
       <description>&lt;section id="faq-main-section"&gt;
             &lt;div class="container"&gt;
                 &lt;h1 class="section-header"&gt;Frequently Asked Questions&lt;/h1&gt;
-                &lt;h3 class="text-center"&gt;Check out our FAQ's to check any of them answer your question, and if they don't feel free to
-                    send us an email!&lt;/h3&gt;
+                &lt;section class="cd-faq"&gt;
+                    &lt;ul class="cd-faq-categories"&gt;
+                        &lt;li&gt;&lt;a href="#services" class="selected"&gt;Services&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#photobooth"&gt;PhotoBooth&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#photos"&gt;Photographs&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                    
+                    &lt;div class="cd-faq-items"&gt;
+                        &lt;ul id="services" class="cd-faq-group"&gt;
+                            &lt;li class="cd-faq-title"&gt;&lt;h2&gt;Services&lt;/h2&gt;&lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#0" class="cd-faq-trigger"&gt;Does Photostache require a deposit to rent a photo booth?&lt;/a&gt;
+                                &lt;div class="cd-faq-content"&gt;
+                                    &lt;p&gt;
+                                        Yes, we do require a deposit to rent a photo booth. A $100 non-refundable deposit ensures that our photobooth will be at your event.
+                                    &lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/li&gt;
+                             &lt;li&gt;
+                                &lt;a href="#0" class="cd-faq-trigger"&gt; Do you charge extra for delivery, setup, and breakdown of your photo booth?&lt;/a&gt;
+                                &lt;div class="cd-faq-content"&gt;
+                                    &lt;p&gt;
+                                        Setup and breakdown for Photostache Photobooths are never charged for. We do offer free delivery up to 40 miles from zip code 91803. There is a $0.50/mile charge for each mile over.
+                                    &lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#0" class="cd-faq-trigger"&gt;What cities do you service?&lt;/a&gt;
+                                &lt;div class="cd-faq-content"&gt;
+                                    &lt;p&gt;
+                                        All of Los Angeles and Orange County. Free deilvery up to 40 miles from zip code 91803. There is a $0.50/mile charge for each mile over.
+                                    &lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#0" class="cd-faq-trigger"&gt;What is included in your hourly rate?&lt;/a&gt;
+                                &lt;div class="cd-faq-content"&gt;
+                                    &lt;p&gt;
+                                        Our basic package starts at a 2-Hour rental rate which includes: double prints of 4x6 or 2x6, friendly attendants, customized template, fun props, digital copies and setup/tear down.. For more information and details of our other packages and add-ons, please check the Packages section or Contact Us for package &amp; pricing information.
+                                    &lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/li&gt;
+                             &lt;li&gt;
+                                &lt;a href="#0" class="cd-faq-trigger"&gt;Does Photostache Photobooth go to weddings?&lt;/a&gt;
+                                &lt;div class="cd-faq-content"&gt;
+                                    &lt;p&gt;
+                                        Of course! Our photobooth was designed for weddings as well as other events, such as birthday parties, corporate events, quinceaneras, bar/bat mitzvahs, etc. The photographs are the perfect party favor for your guests. A photobooth can create life long memories, provide entertainment and are so much fun.
+                                    &lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
 
-                &lt;br/&gt;
-                &lt;ul class="faq-section"&gt;
-                    &lt;li&gt;
-                        &lt;h4&gt;&lt;i class="fa fa-question-circle"&gt; &lt;/i&gt; Does Photostache require a deposit to rent a photo booth?&lt;/h4&gt;
-                        &lt;p&gt;&lt;span&gt;A: &lt;/span&gt;Yes, we do require a deposit to rent a photo booth.  A $100 non-refundable deposit ensures that our photobooth will be at your event. &lt;/p&gt;
-                    &lt;/li&gt;
+                        &lt;ul id="photobooth" class="cd-faq-group"&gt;
+                            &lt;li class="cd-faq-title"&gt;&lt;h2&gt;Photo Booth&lt;/h2&gt;&lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#0" class="cd-faq-trigger"&gt;What makes your photo booth different from other photo booth rentals?&lt;/a&gt;
+                                &lt;div class="cd-faq-content"&gt;
+                                    &lt;p&gt;
+                                        Here's the truth. We've been to many events where we've had the opportunity to snap our pictures using a photobooth. At times we were impressed with the quality of the photo and other times we were truly disappointed. We believe in quality and in order to provide that quality, we utilize a DSLR camera, professional lighting, easy-to-use touch screen, a dye-sub printer that prints in under 10 seconds, an abundance of fun props, as well as working closely with our clients to provide fully customized layouts to match their special event. We want you to end the night knowing that everything we provided was well worth the research in finding the perfect photobooth for your event.
+                                    &lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#0" class="cd-faq-trigger"&gt;How much floor space is required?&lt;/a&gt;
+                                &lt;div class="cd-faq-content"&gt;
+                                    &lt;p&gt;
+                                        To be on the safe side, we require 9 ft. (long) x 9 ft. (wide) of space. We will also need table space to place our props on.
+                                    &lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#0" class="cd-faq-trigger"&gt;What type of electrical outlet is required?&lt;/a&gt;
+                                &lt;div class="cd-faq-content"&gt;
+                                    &lt;p&gt;
+                                        We require 1 dedicated 10 AMP outlet.
+                                    &lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#0" class="cd-faq-trigger"&gt;Does an attendant come with the photo booth rental?&lt;/a&gt;
+                                &lt;div class="cd-faq-content"&gt;
+                                    &lt;p&gt;
+                                        Yes, all of our photo booth rentals come with at least 2 friendly attendants.
+                                    &lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
 
-                    &lt;li&gt;
-                        &lt;h4&gt;&lt;i class="fa fa-question-circle"&gt; &lt;/i&gt; Do you charge extra for delivery, setup, and breakdown of your photo booth?&lt;/h4&gt;
-                        &lt;p&gt;&lt;span&gt;A: &lt;/span&gt;Setup and breakdown for Photostache Photobooths are never charged for. We do offer free delivery up to 40 miles from zip code 91803. There is a $0.50/mile charge for each mile over.&lt;/p&gt;
-                    &lt;/li&gt;
+                         &lt;ul id="photos" class="cd-faq-group"&gt;
+                            &lt;li class="cd-faq-title"&gt;&lt;h2&gt;Photographs&lt;/h2&gt;&lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#0" class="cd-faq-trigger"&gt;How long does it take for photos to be posted online?&lt;/a&gt;
+                                &lt;div class="cd-faq-content"&gt;
+                                    &lt;p&gt;
+                                        When you rent a photobooth from Photostache, your online gallery is posted within 48 hours of the event. Galleries can be viewed on Facebook under your permission and will also be e-mailed to you.
+                                    &lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#0" class="cd-faq-trigger"&gt;Can the color of the background be chosen?&lt;/a&gt;
+                                &lt;div class="cd-faq-content"&gt;
+                                    &lt;p&gt;
+                                        Yes, the background can be customized with any color. *Extra fees may be applied depending on the package chosen.
+                                    &lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#0" class="cd-faq-trigger"&gt;Is there a limit to the number of photographs that can be taken?&lt;/a&gt;
+                                &lt;div class="cd-faq-content"&gt;
+                                    &lt;p&gt;
+                                        There is no limit on the number of photographs taken, although there is a limit on the number of prints printed depending on the package you choose.
+                                    &lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
 
-                    &lt;li&gt;
-                        &lt;h4&gt;&lt;i class="fa fa-question-circle"&gt; &lt;/i&gt; What city do you service?&lt;/h4&gt;
-                        &lt;p&gt;&lt;span&gt;A: &lt;/span&gt;All of Los Angeles and Orange County. Free deilvery up to 40 miles from zip code 91803. There is a $0.50/mile charge for each mile over.&lt;/p&gt;
-                    &lt;/li&gt;
+                &lt;/section&gt;
 
-                    &lt;li&gt; 
-                        &lt;h4&gt;&lt;i class="fa fa-question-circle"&gt; &lt;/i&gt; What is included in your hourly rate?&lt;/h4&gt;
-                        &lt;p&gt;&lt;span&gt;A: &lt;/span&gt; Our basic package starts at a 2-Hour rental rate which includes: double prints of 4x6 or 2x6, friendly attendants, customized template, fun props, digital copies and setup/tear down..  For more information and details of our other packages and add-ons, please check the &lt;a href="packages.html"&gt;Packages section&lt;/a&gt; or &lt;a href="contact.html"&gt;Contact Us&lt;/a&gt; for package &amp; pricing information.&lt;/p&gt;
-                    &lt;/li&gt;
-
-                    &lt;li&gt; 
-                        &lt;h4&gt;&lt;i class="fa fa-question-circle"&gt; &lt;/i&gt; Does Photostache Photobooth go to weddings?&lt;/h4&gt;
-                        &lt;p&gt;&lt;span&gt;A: &lt;/span&gt; Of course!  Our photobooth was designed for weddings as well as other events, such as birthday parties, corporate events, quinceaneras, bar/bat mitzvahs, etc.
-                        The photographs are the perfect party favor for your guests.  A photobooth can create life long memories, provide entertainment and are so much fun. &lt;/p&gt;
-                    &lt;/li&gt;
-
-                    &lt;li&gt; 
-                        &lt;h4&gt;&lt;i class="fa fa-question-circle"&gt; &lt;/i&gt; What makes your photo booth different from other photo booth rentals?  &lt;/h4&gt;
-                        &lt;p&gt;&lt;span&gt;A: &lt;/span&gt; Here's the truth. We've been to many events where we've had the opportunity to snap our pictures using a photobooth. At times we were impressed with the quality of the photo and other times we were truly disappointed. We believe in quality and in order to provide that quality, we utilize a DSLR camera, professional lighting, easy-to-use touch screen,  a dye-sub printer that prints in under 10 seconds, an abundance of fun props, as well as working closely with our clients to provide fully customized layouts to match their special event. We want you to end the night knowing that everything we provided was well worth the research in finding the perfect photobooth for your event.&lt;/p&gt;
-                    &lt;/li&gt;
-
-                    &lt;li&gt; 
-                        &lt;h4&gt;&lt;i class="fa fa-question-circle"&gt; &lt;/i&gt; How much floor space is required?&lt;/h4&gt;
-                        &lt;p&gt;&lt;span&gt;A: &lt;/span&gt; To be on the safe side, we require 9 ft. (long) x 9 ft. (wide) of space. We will also need table space to place our props on.&lt;/p&gt;
-                    &lt;/li&gt;
-
-                    &lt;li&gt; 
-                        &lt;h4&gt;&lt;i class="fa fa-question-circle"&gt; &lt;/i&gt; What type of electricity is needed?&lt;/h4&gt;
-                        &lt;p&gt;&lt;span&gt;A: &lt;/span&gt; We require 1 dedicated 10 AMP outlet.&lt;/p&gt;
-                    &lt;/li&gt;
-
-                    &lt;li&gt; 
-                        &lt;h4&gt;&lt;i class="fa fa-question-circle"&gt; &lt;/i&gt; How long does it take for photos to be posted online?&lt;/h4&gt;
-                        &lt;p&gt;&lt;span&gt;A: &lt;/span&gt; When you rent a photobooth from Photostache, your online gallery is posted within 48 hours of the event.  Galleries can be viewed on Facebook under your permission and will also be e-mailed to you.&lt;/p&gt;
-                    &lt;/li&gt;
-
-                    &lt;li&gt; 
-                        &lt;h4&gt;&lt;i class="fa fa-question-circle"&gt; &lt;/i&gt; Can the color of the background be chosen?&lt;/h4&gt;
-                        &lt;p&gt;&lt;span&gt;A: &lt;/span&gt; Yes, the background can be customized with any color. *Extra fees may be applied depending on the package chosen.&lt;/p&gt;
-                    &lt;/li&gt;
-
-                    &lt;li&gt; 
-                        &lt;h4&gt;&lt;i class="fa fa-question-circle"&gt; &lt;/i&gt; Does an attendant come with the photo booth rental?&lt;/h4&gt;
-                        &lt;p&gt;&lt;span&gt;A: &lt;/span&gt; Yes, all of our photo booth rentals come with at least 2 friendly attendants.&lt;/p&gt;
-                    &lt;/li&gt;
-
-                    &lt;li&gt; 
-                        &lt;h4&gt;&lt;i class="fa fa-question-circle"&gt; &lt;/i&gt; Is there a limit to the number of photographs that can be taken?&lt;/h4&gt;
-                        &lt;p&gt;&lt;span&gt;A: &lt;/span&gt; There is no limit on the number of photographs taken, although there is a limit on the number of prints printed depending on the package you choose.&lt;/p&gt;
-                    &lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;br /&gt;
+                 &lt;br /&gt;
+                  &lt;a href="#0" class="cd-close-panel"&gt;Close&lt;/a&gt;         
                 &lt;h2 class="text-center"&gt;Still have questions? Send us an &lt;a href="mailto:photostacheLA@gmail.com"&gt;email&lt;/a&gt;! We would love to answer them! :D&lt;/h2&gt;
         &lt;/section&gt;</description>
     </item>
