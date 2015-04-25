@@ -20,13 +20,13 @@ jQuery(document).ready(function($){
             closeFaqsContainer.addClass('move-left');
             $('body').addClass('cd-overlay');
         } else {
-            $('body,html').animate({ 'scrollTop': target.offset().top - 19}, 200); 
+            $('body,html').animate({ 'scrollTop': target.offset().top - 100}, 200);
         }
     });
 
     //close faq lateral panel - mobile only
     $('body').bind('click touchstart', function(event){
-        if( $(event.target).is('body.cd-overlay') || $(event.target).is('.cd-close-panel')) { 
+        if( $(event.target).is('body.cd-overlay') || $(event.target).is('.cd-close-panel')) {
             closePanel(event);
         }
     });
@@ -56,7 +56,7 @@ jQuery(document).ready(function($){
                 '-o-transform': 'translateY(0)',
                 'transform': 'translateY(0)',
             });
-        }   
+        }
         if( faqsCategoriesContainer.hasClass('is-fixed') ) {
             faqsCategoriesContainer.css({
                 'left': faqsContainer.offset().left,
@@ -79,10 +79,8 @@ jQuery(document).ready(function($){
     function updateCategoryPosition() {
         var top = $('.cd-faq').offset().top,
             height = jQuery('.cd-faq').height() - jQuery('.cd-faq-categories').height(),
-            margin = 20;
-            console.log( top - margin + height);
+            margin = 100;
         if( top - margin <= $(window).scrollTop() && top - margin + height > $(window).scrollTop() ) {
-            console.log("in here");
                 var leftValue = faqsCategoriesContainer.offset().left,
                 widthValue = faqsCategoriesContainer.width();
             faqsCategoriesContainer.addClass('is-fixed').css({
@@ -119,7 +117,8 @@ jQuery(document).ready(function($){
                 margin = parseInt($('.cd-faq-title').eq(1).css('marginTop').replace('px', '')),
                 activeCategory = $('.cd-faq-categories a[href="#'+actual.attr('id')+'"]'),
                 topSection = (activeCategory.parent('li').is(':first-child')) ? 0 : Math.round(actual.offset().top);
-            if ( ( topSection - 20 <= $(window).scrollTop() ) && ( Math.round(actual.offset().top) + actual.height() + margin - 20 > $(window).scrollTop() ) ) {
+            if ( ( topSection - 120 <= $(window).scrollTop() ) && ( Math.round(actual.offset().top) + actual.height() + margin - 120 > $(window).scrollTop() ) ) {
+                console.log("in here");
                 activeCategory.addClass('selected');
             }else {
                 activeCategory.removeClass('selected');
