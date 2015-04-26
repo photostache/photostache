@@ -488,12 +488,12 @@ a:hover {
   height: 50px;
   line-height: 50px;
   padding: 0 28px 0 16px;
-  background-color: #ebebf2;
+  background-color: #ecf0f1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
+  color: #ecf0f1;
   white-space: nowrap;
-  border-bottom: 1px solid #f4f4f8;
+  border-bottom: 1px solid #f5f7f7;
   text-overflow: ellipsis; }
   .cd-faq-categories a::before, .cd-faq-categories a::after {
     /* plus icon on the right */
@@ -530,7 +530,7 @@ a:hover {
       .cd-faq-categories a::before, .cd-faq-categories a::after {
         display: none; }
       .no-touch .cd-faq-categories a:hover {
-        background: #f4f4f8; }
+        background: #f5f7f7; }
     .no-js .cd-faq-categories {
       width: 100%;
       margin-bottom: 2em; } }
@@ -556,7 +556,7 @@ a:hover {
       -o-transition: opacity 0.2s;
       transition: opacity 0.2s; }
     .cd-faq-categories .selected {
-      background: #dcdce8 !important; }
+      background: #dde4e6 !important; }
       .cd-faq-categories .selected::before {
         opacity: 1; }
     .cd-faq-categories.is-fixed {
@@ -689,7 +689,7 @@ a:hover {
       /* all groups visible */
       display: block; }
       .cd-faq-group > li {
-        background: white;
+        background: #ecf0f1;
         margin-bottom: 6px;
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
         -webkit-transition: box-shadow 0.2s;
