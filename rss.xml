@@ -4,7 +4,7 @@
     <title/>
     <description/>
     <link/>
-    <pubDate>2015-04-25</pubDate>
+    <pubDate>2015-07-14</pubDate>
     <item>
       <title>About</title>
       <link>/photostache/about</link>
@@ -293,7 +293,7 @@
         
         &lt;section id="gallery-main-section"&gt;
             &lt;div class="container"&gt;
-                &lt;h1 class="section-header"&gt;Gallery 1&lt;/h1&gt;
+                &lt;h1 class="section-header"&gt;Photostache!&lt;/h1&gt;
 
                 &lt;div id="photostacheGallery"&gt;&lt;/div&gt;
             &lt;/div&gt;
@@ -308,7 +308,7 @@
         
         &lt;section id="gallery-main-section"&gt;
             &lt;div class="container"&gt;
-                &lt;h1 class="section-header"&gt;Gallery 2&lt;/h1&gt;
+                &lt;h1 class="section-header"&gt;Past Events&lt;/h1&gt;
                 &lt;div id="pastEvents"&gt;&lt;/div&gt;
                 
             &lt;/div&gt;
@@ -393,8 +393,8 @@
                         &lt;/div&gt;
                         &lt;div class="col-sm-4 intro-div intro-div2"&gt;
                             &lt;img class="img-responsive" src="/photostache/assets/media/stache1.png" alt="flat mustache icon"&gt;
-                            &lt;h2&gt;Unlimited Photographs&lt;/h2&gt;
-                                &lt;p&gt;Yep, you read that right! Your guests will be able to take unlimited photos with the Photostache Booth! Choose from the traditional double strip print or the modern 4x6 layout.&lt;/p&gt;
+                            &lt;h2&gt;Double Prints&lt;/h2&gt;
+                                &lt;p&gt;Yep, you read that right! Your guests will receive double prints for each photo taken with the Photostache Booth! Choose from the traditional double strip print or the modern 4x6 layout.&lt;/p&gt;
                         &lt;/div&gt;
                         &lt;div class="col-sm-4 intro-div intro-div3"&gt;
                             &lt;img class="img-responsive" src="/photostache/assets/media/glasses1.png" alt="flat kanye glasses icon"&gt;
