@@ -4,7 +4,7 @@
     <title/>
     <description/>
     <link/>
-    <pubDate>2015-07-14</pubDate>
+    <pubDate>2016-01-01</pubDate>
     <item>
       <title>About</title>
       <link>/photostache/about</link>
@@ -584,43 +584,41 @@
             &lt;h1 class="section-header"&gt;Packages Info&lt;/h1&gt;
 
             &lt;div class="plans row clearfix"&gt;
-                
+
                 &lt;div class="plan col-sm-4"&gt;
                     &lt;h3 class="plan-title"&gt;Package A&lt;/h3&gt;
                     &lt;div class="plan-price"&gt;
                         &lt;div class="plan-price-inner"&gt;
-                            &lt;p class="primary-price"&gt;&lt;span&gt;$&lt;/span&gt;399&lt;/p&gt;
+                            &lt;p class="primary-price"&gt;&lt;span&gt;$&lt;/span&gt;499&lt;/p&gt;
                             &lt;p class="secondary-price"&gt;2 HRs of service&lt;/p&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
                     &lt;ul class="plan-features"&gt;
                         &lt;li class="plan-feature"&gt;2 Hours of service&lt;/li&gt;
-                        &lt;li class="plan-feature"&gt;Double Prints&lt;/li&gt;
-                        &lt;li class="plan-feature"&gt;Friendly Attendant(s)&lt;/li&gt;
-                        &lt;li class="plan-feature"&gt;Customized Templates&lt;/li&gt;
+                        &lt;li class="plan-feature"&gt;Double Prints (2x6 prints only)&lt;/li&gt;
+                        &lt;li class="plan-feature"&gt;Password protected photo gallery&lt;/li&gt;
                         &lt;li class="plan-feature"&gt;Crazy Prop Box&lt;/li&gt;
-                        &lt;li class="plan-feature"&gt;Digital Copies&lt;/li&gt;
+                        &lt;li class="plan-feature"&gt;Friendly Attendants&lt;/li&gt;
                         &lt;li class="plan-feature"&gt;Setup and Tear Down&lt;/li&gt;
                     &lt;/ul&gt;
                     &lt;a href="/photostache/contact" class="plan-btn center-block"&gt;Contact Us Now!&lt;/a&gt;
                 &lt;/div&gt;
-                
+
                 &lt;div class="plan col-sm-4"&gt;
                     &lt;h3 class="plan-title"&gt;Package B&lt;/h3&gt;
                     &lt;div class="plan-price"&gt;
                         &lt;div class="plan-price-inner"&gt;
-                            &lt;p class="primary-price"&gt;&lt;span&gt;$&lt;/span&gt;499&lt;/p&gt;
+                            &lt;p class="primary-price"&gt;&lt;span&gt;$&lt;/span&gt;699&lt;/p&gt;
                             &lt;p class="secondary-price"&gt;3 HRS of service&lt;/p&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
                     &lt;ul class="plan-features"&gt;
                         &lt;li class="plan-feature"&gt;3 Hours of service&lt;/li&gt;
-                        &lt;li class="plan-feature"&gt;All Features of Package A&lt;/li&gt;
+                        &lt;li class="plan-feature"&gt;All features from Package A&lt;/li&gt;
+                        &lt;li class="plan-feature"&gt;Double prints (choice of either 2x6 of 4x6 prints)&lt;/li&gt;
+                        &lt;li class="plan-feature"&gt;Password protected photo gallery&lt;/li&gt;
                         &lt;li class="plan-feature"&gt;Customized Templates&lt;/li&gt;
-                        &lt;li class="plan-feature"&gt;Crazy Prop Box&lt;/li&gt;
-                        &lt;li class="plan-feature"&gt;Digital Copies&lt;/li&gt;
-                        &lt;li class="plan-feature"&gt;Setup and Tear Down&lt;/li&gt;
-                        &lt;li class="plan-feature"&gt;&lt;strong&gt;*Scrapbook&lt;/strong&gt;&lt;/li&gt;
+                        &lt;li class="plan-feature"&gt;USB gift&lt;/li&gt;
                     &lt;/ul&gt;
                     &lt;a href="/photostache/contact" class="plan-btn center-block"&gt;Contact Us Now!&lt;/a&gt;
                 &lt;/div&gt;
@@ -628,7 +626,7 @@
                     &lt;h3 class="plan-title"&gt;Package C&lt;/h3&gt;
                     &lt;div class="plan-price"&gt;
                         &lt;div class="plan-price-inner"&gt;
-                            &lt;p class="primary-price"&gt;&lt;span&gt;$&lt;/span&gt;599&lt;/p&gt;
+                            &lt;p class="primary-price"&gt;&lt;span&gt;$&lt;/span&gt;899&lt;/p&gt;
                             &lt;p class="secondary-price"&gt;4 HRS of service&lt;/p&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
@@ -637,8 +635,7 @@
                         &lt;li class="plan-feature"&gt;All features of packages A and B&lt;/li&gt;
                         &lt;li class="plan-feature"&gt;Customized Templates&lt;/li&gt;
                         &lt;li class="plan-feature"&gt;Crazy Prop Box&lt;/li&gt;
-                        &lt;li class="plan-feature"&gt;Digital Copies&lt;/li&gt;
-                        &lt;li class="plan-feature"&gt;Setup and Tear Down&lt;/li&gt;
+                        &lt;li class="plan-feature"&gt;Password protected photo gallery&lt;/li&gt;
                         &lt;li class="plan-feature"&gt;&lt;strong&gt;*Scrapbook&lt;/strong&gt;&lt;/li&gt;
                     &lt;/ul&gt;
                     &lt;a href="/photostache/contact" class="plan-btn center-block"&gt;Contact Us Now!&lt;/a&gt;
@@ -656,17 +653,21 @@
                 &lt;div class="col-sm-6 addons"&gt;
                     &lt;h2 class="text-center"&gt;Available options:&lt;/h2&gt;
                     &lt;ul&gt;
-                        &lt;li&gt;USB drive with all photos from event: $30.00&lt;/li&gt;
-                        &lt;li&gt;Scrapbook: $40.00&lt;/li&gt;
-                        &lt;li&gt;Extra hours of service: $100/hour&lt;/li&gt;
+                        &lt;li&gt;Scrapbook: $75.00&lt;/li&gt;
+                        &lt;li&gt;Customized Templates: $50&lt;/li&gt;
+                        &lt;li&gt;Extra hours of service: $150 per hour&lt;/li&gt;
+                        &lt;li&gt;Custom backdrop: $50&lt;/li&gt;
+                        &lt;li&gt;Unlimited print out of each photo taken: $25 per hour&lt;/li&gt;
+                        &lt;li&gt;Driving distant of up to 40 miles from 91801 and $2 per addtional mile&lt;/li&gt;
                         &lt;h2&gt;Let us know if you need a custom package!&lt;/h2&gt;
                     &lt;/ul&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
-            
+
 
         &lt;/section&gt;
-    &lt;/div&gt;</description>
+    &lt;/div&gt;
+</description>
     </item>
   </channel>
 </rss>
