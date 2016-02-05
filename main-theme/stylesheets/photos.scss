@@ -1,0 +1,16 @@
+.photos__list {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.photos__list-links{
+  font-family: $primaryFont;
+  font-size: 36px;
+  a {
+    color: black;
+    text-decoration: none;
+    &:hover {
+      color: $primaryColor;
+    }
+  }
+}
