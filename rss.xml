@@ -4,7 +4,7 @@
     <title/>
     <description/>
     <link/>
-    <pubDate>2016-01-01</pubDate>
+    <pubDate>2016-02-04</pubDate>
     <item>
       <title>About</title>
       <link>/photostache/about</link>
@@ -336,22 +336,20 @@
     <item>
       <title>Gallery4</title>
       <link>/photostache/gallery4</link>
-      <description>&lt;!DOCTYPE html&gt;
+      <description>&lt;div class="main-section"&gt;
 
-&lt;div class="main-section"&gt;
-        
         &lt;section id="gallery-main-section"&gt;
             &lt;div class="container"&gt;
                 &lt;h1 class="section-header"&gt;Gallery 4&lt;/h1&gt;
                 &lt;div class="nanoGallery"&gt;
-                    
+
                 &lt;/div&gt;
-                
+
             &lt;/div&gt;
         &lt;/section&gt;
-        
+
 &lt;/div&gt;
-   </description>
+</description>
     </item>
     <item>
       <title>Index</title>
@@ -667,6 +665,28 @@
 
         &lt;/section&gt;
     &lt;/div&gt;
+</description>
+    </item>
+    <item>
+      <title>Photos</title>
+      <link>/photostache/photos</link>
+      <description>&lt;div class="container"&gt;
+  &lt;section class="photos"&gt;
+    &lt;h1 class="section-header"&gt;Private Galleries&lt;/h1&gt;
+    &lt;ul class="photos__list"&gt;
+      &lt;li class="photos__list-links"&gt;
+        &lt;a href="http://photostache.github.io/photostache/about/"&gt;
+          "Andrew and Roy"
+        &lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="photos__list-links"&gt;
+        &lt;a href="http://photostachephotobooth.zenfolio.com/p909022867"&gt;
+          "Sara and David"
+        &lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
   </channel>

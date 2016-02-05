@@ -4181,6 +4181,19 @@ footer {
     -o-transition: 1s;
     transition: 1s; }
 
+.photos__list {
+  text-align: center;
+  margin-bottom: 50px; }
+
+.photos__list-links {
+  font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
+  font-size: 36px; }
+  .photos__list-links a {
+    color: black;
+    text-decoration: none; }
+    .photos__list-links a:hover {
+      color: #1bc7a5; }
+
 
 
 
