@@ -29,6 +29,10 @@
     {{# stylesheets.load }}
         application.css
     {{/ stylesheets.load }}
+
+    {{# javascripts.load }}
+        lib/jquery.min.js
+    {{/ javascripts.load }}
 </head>
 <body>
         <header id="header" class="header">
@@ -93,7 +97,6 @@
 
 
 {{# javascripts.load }}
-    lib/jquery.min.js
     lib/bootstrap.min.js
     lib/jquery.flexslider-min.js
     lib/jquery.backstretch.min.js
