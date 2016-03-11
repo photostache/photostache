@@ -26,7 +26,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.3.0/css/themes/light/nano_logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
 
-<link href='/photostache/assets/stylesheets/application-37b4f8660ecf1ac8bf051a00916e79d3.css' type='text/css' rel='stylesheet' media='all'></head>
+<link href='/photostache/assets/stylesheets/application-37b4f8660ecf1ac8bf051a00916e79d3.css' type='text/css' rel='stylesheet' media='all'>
+<script src='/photostache/assets/javascripts/lib/jquery.min-338b802ada1b4841c71eb7eb0273b2d2.js'></script></head>
 <body>
         <header id="header" class="header">
             <div class="logo-wrapper">
@@ -62,20 +63,26 @@
         <div class="container">
   <section class="photos">
     <h1 class="section-header">Private Galleries</h1>
-    <ul class="photos__list">
-      <li class="photos__list-links">
-        <a href="http://photostachephotobooth.zenfolio.com/p978442554">
-          "Liana and Allen"
-        </a>
-      </li>
-      <li class="photos__list-links">
-        <a href="http://photostachephotobooth.zenfolio.com/p909022867">
-          "Sara and David"
-        </a>
-      </li>
+    <ul class="photos__list" id="photos_list">
+      <!-- rendered by script below --> 
     </ul>
   </section>
 </div>
+
+
+
+<script type="text/javascript">
+  function parseWebAddress(data){
+    $.each(data, function(index, value){
+      var template_a  = "<a href='" + value['gallery_web_address'] + "'>" + value['name'] + "</a>";
+      var template_li = "<li class='photos__list-links'>" + template_a + "</li>";
+      $('.photos__list').append(template_li);
+    });
+  }
+</script>
+
+<script type="text/javascript" src="http://photostache.herokuapp.com/gallery_addresses?callback=parseWebAddress">
+</script>
 
 
         <footer>
@@ -106,7 +113,6 @@
         </footer>
 
 
-<script src='/photostache/assets/javascripts/lib/jquery.min-338b802ada1b4841c71eb7eb0273b2d2.js'></script>
 <script src='/photostache/assets/javascripts/lib/bootstrap.min-8157d368f90efb33aeda3ad96cf3c887.js'></script>
 <script src='/photostache/assets/javascripts/lib/jquery.flexslider-min-d8df3669cd51ae1eae024ecd771d4c80.js'></script>
 <script src='/photostache/assets/javascripts/lib/jquery.backstretch.min-162ee3b6f677b71d8e79c7781402c9b4.js'></script>

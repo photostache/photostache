@@ -4,7 +4,7 @@
     <title/>
     <description/>
     <link/>
-    <pubDate>2016-02-07</pubDate>
+    <pubDate>2016-03-10</pubDate>
     <item>
       <title>About</title>
       <link>/photostache/about</link>
@@ -673,20 +673,26 @@
       <description>&lt;div class="container"&gt;
   &lt;section class="photos"&gt;
     &lt;h1 class="section-header"&gt;Private Galleries&lt;/h1&gt;
-    &lt;ul class="photos__list"&gt;
-      &lt;li class="photos__list-links"&gt;
-        &lt;a href="http://photostachephotobooth.zenfolio.com/p978442554"&gt;
-          "Liana and Allen"
-        &lt;/a&gt;
-      &lt;/li&gt;
-      &lt;li class="photos__list-links"&gt;
-        &lt;a href="http://photostachephotobooth.zenfolio.com/p909022867"&gt;
-          "Sara and David"
-        &lt;/a&gt;
-      &lt;/li&gt;
+    &lt;ul class="photos__list" id="photos_list"&gt;
+      &lt;!-- rendered by script below --&gt; 
     &lt;/ul&gt;
   &lt;/section&gt;
 &lt;/div&gt;
+
+
+
+&lt;script type="text/javascript"&gt;
+  function parseWebAddress(data){
+    $.each(data, function(index, value){
+      var template_a  = "&lt;a href='" + value['gallery_web_address'] + "'&gt;" + value['name'] + "&lt;/a&gt;";
+      var template_li = "&lt;li class='photos__list-links'&gt;" + template_a + "&lt;/li&gt;";
+      $('.photos__list').append(template_li);
+    });
+  }
+&lt;/script&gt;
+
+&lt;script type="text/javascript" src="http://photostache.herokuapp.com/gallery_addresses?callback=parseWebAddress"&gt;
+&lt;/script&gt;
 </description>
     </item>
   </channel>

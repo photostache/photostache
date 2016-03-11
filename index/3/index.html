@@ -3,24 +3,28 @@
       <div class="_root">
         <h3 class="title"><a href="/photostache/photos">Photos</a> <span class="date"></span></h3>
 
-        <div class="summary">
+        <div class="summary ellipsis">
 <div class="container">
   <section class="photos">
     <h1 class="section-header">Private Galleries</h1>
-    <ul class="photos__list">
-      <li class="photos__list-links">
-        <a href="http://photostachephotobooth.zenfolio.com/p978442554">
-          "Liana and Allen"
-        </a>
-      </li>
-      <li class="photos__list-links">
-        <a href="http://photostachephotobooth.zenfolio.com/p909022867">
-          "Sara and David"
-        </a>
-      </li>
+    <ul class="photos__list" id="photos_list">
+      <!-- rendered by script below --> 
     </ul>
   </section>
 </div>
+
+
+
+<script type="text/javascript">
+  function parseWebAddress(data){
+    $.each(data, function(index, value){
+      var template_a  = "<a href='" + value['gallery_web_address'] + "'>" + value['name'] + "</a>";
+      var template_li = "<li class='photos__list-links'>" + template_a + "</li>";
+      $('.photos__list').append(template_li);
+    });
+  }
+</script>
+
 </div>
 
         <div class="more">
